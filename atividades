@@ -1,0 +1,27 @@
+#exercicio 10
+altura = float(input("Digite a altura da parede"))
+largura = float(input("Digite a largura da parede"))
+area = altura * largura 
+quant_litros = area / 2
+print("será necessário", quant_litros, "litros")
+
+#exercicio 11
+a = int(input("informe o valor de A "))
+b = int(input("informe o valor de B "))
+c = int(input("informe o valor de C "))
+delta = b ** 2 - 4 * a * c 
+print("O valor do delta =", delta)
+
+# exercicio 12 - preço promocional
+preco = float(input("informe o preco do produto"))
+desconto = preco * 0.05
+promocao = preco - desconto
+print("Desconto", desconto)
+print("Preco promocional", promocao)
+
+# exercicio 13 - novo salário
+salario = float(input("Digite o valor do salario"))
+aumento = salario * 0.15
+novo_salario = salario + aumento
+print(f"Aumento de R$ {aumento:.2f}")
+print(f"Novo salario de R$ {novo_salario:.2f}")
