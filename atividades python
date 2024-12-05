@@ -782,7 +782,7 @@ while tentativas > 0:
 if tentativas == 0 and tentativa != numero_sorteado:
     print(f"Você não acertou! O número sorteado era {numero_sorteado}.")
 
-DESAFIO
+ATIVIDADE 1
 
 numero = int(input("Digite um valor múltiplo de 10: "))
 
@@ -812,7 +812,7 @@ else:
     if c10 > 0:
         print(f"{c10} nota(s) de 10.00")
 
-DESAFIO 2
+ATIVIDADE 2
 #Criar um programa que o computador faça um sorteio de um numero de 1 ate 100 
 #E você terá que adivinhar o número sorteado, a cada vez que colocar o numero o computador terá que exibir a mensagem:
 #- você acertou o número;
@@ -844,7 +844,7 @@ while tentativas < 10:
 
 
 
-DESAFIO 3
+ATIVIDADE 3
 # Inicializando as variáveis para contar os votos
 Candidato_a = 0
 Candidato_b = 0
@@ -916,7 +916,9 @@ else:
 # Exibe o vencedor
 print(f"O vencedor da eleição é: {vencedor}")
 
-Desafio 1 lista
+
+
+ATIVIDADE 4
 import random
 
 # Lista com os nomes dos alunos
@@ -935,7 +937,7 @@ else:
     for aluno in alunos_sorteados:
         print("Aluno sorteado:", aluno)
 
-Desafio 2 lista
+ATIVIDADE 5
 import random
 
 # Lista com os nomes dos alunos
@@ -1062,7 +1064,9 @@ resposta("Resposta Final ")
 resposta("Meus pontos............ ",meus_pontos, "Pontos ")
 resposta("Computador pontos...... ",computador_pontos, "Pontos")
 
-    PRIMEIRA FORMA
+
+ATIVIDADE 6
+PRIMEIRA FORMA
 num = int(input("Digite um numero"))
 cont = 1 
 while cont <= 10 :
@@ -1073,6 +1077,12 @@ while cont <= 10 :
 num = int(input("Digite um numero"))
 for cont in range(1,11):
     print(num, 'x', cont, '=', num*cont)
+
+ATIVIDADE 7
+for num in range(1,11):
+    print('tabuada do numero ',num)
+    for cont in range(1,11):
+        print(num,'x',cont,'=',num*cont)
     
 
     
